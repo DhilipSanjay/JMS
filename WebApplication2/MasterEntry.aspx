@@ -61,7 +61,7 @@
                 <tr>
                     <td class="auto-style5">JCode*</td>
                     <td class="auto-style3">
-                        <asp:TextBox ID="code" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="code" runat="server" AutoPostBack="True"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -113,7 +113,7 @@
                         &nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style5">Placement NO*</td>
+                    <td class="auto-style5">Placement No*</td>
                     <td class="auto-style3">
                         <asp:TextBox ID="placementNo" runat="server"></asp:TextBox>
                     </td>
